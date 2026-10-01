@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    color: #ffffff;
+}
+
+header p {
+    color: #ffffff;
+}
+
+body {
+    background-color: #ff0000;
+    color: #000000;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+h1 {
+    font-size: 100px;
+    margin: auto;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 40px;
+}
+h5 {
+    font-size: 30px;
+}
+p {
+    color: #000000;
+    line-height: 1.6;
+    font-size: 20px;
+}
+a {
+    color: #ee0b0b;
+    text-decoration: none;
+}
+
+img {
+    width: 600px;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.2);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: red;
+    color: rgb(3, 1, 1);
+}
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+
+}
+section {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    margin: 20px 0;
+    border: 1px solid #110303;
+    border-radius: 20px;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.2);
+    flex: 1;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.2);
+}
+
+.virhe {
+    color: #ff1900;
+    font-weight: bold;
+}
+#lainausalue {
+    font-size: 15px;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 18px;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    nav {
+        width: 100%;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+    section {
+        width: 100%;
+        padding: 20px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
